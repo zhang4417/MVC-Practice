@@ -1,0 +1,16 @@
+.module2 .tab-bar{
+    display:flex;
+}
+.module2 .tab-bar li{
+    border:1px solid gray;
+    width:50%;
+}
+.module2 .tab-bar .bg{
+    background:rgb(253, 221, 155);
+}
+.module2 .tab-content li{
+    display:none;
+}
+.module2 .tab-content .react{
+    display:block;
+}

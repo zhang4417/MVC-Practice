@@ -1,0 +1,32 @@
+.module4{
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.circle{
+    height:50%;
+    width:50%;
+    border-radius:50%;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(204,54,54,1) 0%, rgba(210,109,38,1) 13%, rgba(221,208,41,1) 29%, rgba(68,196,114,1) 47%, rgba(112,48,199,1) 61%, rgba(144,73,145,1) 81%, rgba(205,48,62,1) 100%);
+    position:absolute;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.smallCircle{
+    position:absolute;
+    height:40%;
+    width:40%;
+    border-radius:50%;
+    background: #ffffff;
+}
+@keyframes tran{
+    0%{background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(163,80,80,1) 0%, rgba(181,195,67,1) 13%, rgba(11,145,142,1) 29%, rgba(68,196,184,1) 47%, rgba(73,48,199,1) 61%, rgba(145,73,113,1) 81%, rgba(205,48,96,1) 100%);}
+    33%{background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(163,94,80,1) 0%, rgba(195,159,67,1) 16%, rgba(83,145,11,1) 31%, rgba(68,196,121,1) 48%, rgba(48,94,199,1) 65%, rgba(128,73,145,1) 86%, rgba(205,48,96,1) 100%);}
+    66%{background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(143,163,80,1) 0%, rgba(195,110,67,1) 15%, rgba(11,145,101,1) 32%, rgba(196,182,68,1) 48%, rgba(48,183,199,1) 65%, rgba(145,73,88,1) 85%, rgba(98,48,205,1) 100%);}
+    100%{background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(163,94,80,1) 0%, rgba(195,191,67,1) 15%, rgba(38,145,11,1) 32%, rgba(68,195,196,1) 48%, rgba(78,48,199,1) 65%, rgba(145,73,123,1) 85%, rgba(205,48,48,1) 100%);}
+}
+.gradient{
+    animation:tran 2s linear infinite alternate;
+}
